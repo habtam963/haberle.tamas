@@ -11,3 +11,8 @@ res.end('Hello World');
 server.listen(port, hostname, () => {
 console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+
+
+
+//METHOD pl.: GET, POST, DELETE, PATCH
