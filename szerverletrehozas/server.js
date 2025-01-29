@@ -18,7 +18,9 @@ const db = mysql.createConnection({
 
 });
 
-
+app.get("/",(req, res) => {
+    res.send("Ez 12cd server");
+})
 
 
 app.listen(3001,()=>{
